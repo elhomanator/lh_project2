@@ -1,0 +1,437 @@
+
+
+html { 
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+body { 
+	font-size: 16px; 
+	font-family: 'Dosis', sans-serif;
+	color: black;
+	line-height: 1.2em;
+}
+
+img { 
+	outline: none; 
+	font-weight: bold; 
+	margin-bottom: 5px;
+	width: 100%;
+	height: 100%;
+}
+
+
+aside { 
+	font-style: 'Dosis:300'; 
+	font-size: 1.2em;
+	line-height: 1.2em;
+	width: 95%;
+	clear: both;
+	}
+
+h1, h2, h3 {
+	text-transform: lowercase;
+}
+
+	
+/* Structure */
+
+
+#wrapper {
+	width: 100%;	
+	min-width:480px;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 2.5%;
+
+	} 
+
+
+.light p{
+	color: #A9A9A9;
+	font-size: 1.5em;
+	line-height: 125%;
+	margin-right: 3%;
+	background-color: white;
+	width: 95%;
+}
+
+.light h1{
+	color: #0ABAB5;
+	font-size: 1.75em;
+}
+
+.light h4{
+	color: #A7A7A7;
+}
+
+
+
+
+/* page main title */
+header h1 {
+	font-style: 'Dosis:700';
+	font-size: 44px;
+	text-align: center;
+	color: #0ABAB5;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	padding-top: 2.5%;
+	}
+
+		
+/* Nav */
+
+header nav li {
+		display: inline;
+		margin: 0 auto;
+		padding-top: 2.5%;
+	
+	}
+
+/* main text content*/
+
+
+/* navigation links at top*/
+.mainbodylinks ul, li {
+width: 275px;
+margin: 0 auto;
+padding-bottom: 5px;
+ 
+}
+
+.mainbodylinks a {
+   color: #0ABAB5;
+   font-style: 'Dosis:700';
+   font-size: 18px;
+   text-decoration: none;
+   padding: 10px;
+   background-color: white;
+   border-top: 1px solid #C0C0C0; 
+ 
+}
+
+.mainbodylinks a:hover {
+   color: #C0C0C0;
+   text-decoration: none;
+   border-bottom: 1px solid; 
+   border-top: none;
+   border-color: #0ABAB5;
+   padding: 10px;
+}
+
+.mainbodylinks a:visited {
+   color: #078a86;
+}
+
+/* Banner main pic */			
+#banner {
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 2.5%;
+
+	}
+
+#banner img {
+	max-width: 960px;
+	margin-left: -25px;
+	}
+
+
+
+	/* sidebar of social links, runs on bottom, on 1000 px, third column -----
+	---switched them to maintext, keep social in for now*/
+/*
+#socialsides {
+	width: 100%;
+	clear: both;
+}*/
+
+/*
+#socialsides p{
+		font: 'Dosis:400';
+		color: black;
+		background-color: white;
+		margin-right: 3%;
+		width: 95%;
+		}*/
+
+/*#socialsides h2 {
+	color: #078a86;
+	font-size: 1.25em;
+	padding-top: 2%;
+}*/
+
+#maintext {
+	width: 100%;
+	clear: both;
+	}	
+
+#maintext p{
+		font: 'Dosis:400';
+		color: black;
+		background-color: white;
+		margin-right: 3%;
+		width: 100%;
+		}
+
+#maintext  ul, li{
+		font: 'Dosis:300';
+		color: black;
+		padding: 10px;
+		margin: 5px;
+		list-style-type: square;
+		list-style-position: inside;
+		background: white;
+		}
+
+#maintext h2{
+	color: #078a86;
+	font-size: 1.5em;
+	padding-top: 2%;
+	line-height: 1.1em;
+}
+
+#maintext a {
+ 	color: black;
+   font-style: 'Dosis:700';
+   font-size: 18px;
+   text-decoration: none;
+
+}
+
+#maintext a:hover {
+   color: #0ABAB5;
+   text-decoration: none;
+}
+
+#maintext a:visited {
+   color: #078a86;
+}
+
+/* side text for bottom and/or right side bar*/
+
+#sidetext {
+	width: 100%;
+	clear: both;
+	}
+
+#sidetext h2{
+	color: #078a86;
+	font-size: 1.5em;
+	padding-top: 2%;
+	line-height: 1.1em;
+}
+
+#sidetext p{
+		font: 'Dosis:400';
+		color: black;
+		background-color: white;
+		width: 100%;
+		}
+
+#sidetext ul, li{
+		font: 'Dosis:300';
+		color: #0ABAB5;
+		padding: 2.5%;
+		width: 100%;
+		list-style-type: square;
+		list-style-position: inside;
+		background: white;
+		}
+
+#sidetext a {
+ color: black;
+   font-style: 'Dosis:700';
+   font-size: 18px;
+   text-decoration: none;
+
+}
+
+#sidetext a:hover {
+   color: #0ABAB5;
+   text-decoration: none;
+}
+
+#sidetext a:visited {
+   color: black;
+}
+
+
+
+/* footer*/
+.footer{
+	position: absolute;
+ 	bottom: 0;
+	height: 40px;
+	width: 100%;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	background-attachment: scroll;
+    background-position: 0% 0% 0%, 0%;
+    position: fixed;
+    left: 0pt;
+    box-shadow: 5px 5px 15px #666;
+    background-image: linear-gradient(
+     180deg, #078a86 0%, #0ABAB5 100%)
+}
+#footertext{
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	float: center;
+	align: center;
+}
+
+/* gallery stuff*/
+.wrap {
+	width: 100%;
+	margin: 0 auto;
+	margin-left: -25px;
+
+}
+.box {
+   float: left;
+   position: relative;
+   width: 100%;
+   padding-bottom: 100%;
+}
+/*
+.boxInner {
+   position: absolute;
+   top: 10px;
+   bottom: 20px;
+   box-shadow: 1px 1px 10px #666;
+
+}*/
+
+.boxInner img {
+   width: 100%;
+   padding-bottom: 5%;
+
+}
+.boxInner {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: 0px;
+   background: #000;
+   background: rgba(0, 0, 0, 0.5);
+   color: #FFF;
+   /* adding these lines below*/
+      position: absolute;
+   top: 10px;
+   bottom: 20px;
+   box-shadow: 1px 1px 10px #666;
+   /* ending here*/
+
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover , body.touch .boxInner.touchFocus  {
+   margin-bottom: 0;
+}
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+
+	header h1 {
+		float: left;
+		font-size: 3em;
+	}
+	header nav {
+		float: right;
+		margin-top: 20px;
+		margin-right: 0px;
+	}
+
+body { 
+	font-size: 18px; 
+}
+
+	/*aside, article #maintext{
+		width: 95%;
+	}*/
+	
+	.light {
+		width: 30%;
+		display: inline-block;
+	}
+	#maintext{
+		vertical-align: top;
+		display: inline-block;
+		width: 65%;
+	}
+	#sidetext{
+		display: block;
+		width: 100%
+	}
+
+	/* gallery?*/
+	.box {
+      width: 47.5%;
+      padding-bottom: 47.5%;
+      margin-left: 1.5%;
+   }
+/*
+	#maintext {
+		width: 75%;
+		float: right;
+		display: block;
+
+	}	
+	*/
+
+	@media screen and (min-width: 960px) {
+
+	header h1 {
+		float: left;
+	}
+	header nav {
+		float: right;
+	}
+
+	body { 
+		font-size: 20px; 
+	}
+
+.container {
+	width: 960px;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ 
+}
+
+	aside {
+		width: 30%;
+		padding-right: 2.5%;
+		}
+
+	#maintext {
+		width: 40%;
+		;
+
+	}
+	#sidetext {
+		width: 15%;
+		padding-left: 2.5%;
+	}
+	.box {
+      width: 32%;
+      padding-bottom: 32%;
+      margin-left: 5px;
+   }
+
